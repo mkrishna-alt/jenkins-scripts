@@ -71,11 +71,20 @@ class DeepCredentialsPrinter {
         if (c.properties.password) {
             out.println("   password: " + c.password)
         }
+        if (c.properties.password) {
+            out.println("   password: " + c.password)
+        }
         if (c.properties.passphrase) {
             out.println("   passphrase: " + c.passphrase)
         }
         if (c.properties.secret) {
             out.println("   secret: " + c.secret)
+        }
+        if (c.properties.accessKey) {
+            out.println("   accessKey: " + c.accessKey)
+        }
+           if (c.properties.secretKey) {
+            out.println("   secretKey: " + c.secretKey)
         }
         if (c.properties.secretBytes) {
             out.println("    secretBytes: ")
